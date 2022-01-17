@@ -4,3 +4,5 @@
 
 ### projeto desenvolvido no bootcamp TakeBlip Web developer
 
+### atualizando aos poucos
+
