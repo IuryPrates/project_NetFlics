@@ -28,7 +28,7 @@ header .logo {
   margin-left: 5px;
   color: var(--vermelho);
   font-family: 'Arial Black', Times;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 header nav a {
@@ -44,8 +44,22 @@ header nav a:hover {
 /*background size, cover ((alinha o tamanho da imagem para se adaptar a tela))*/
 .filme-principal {
   font-size: 15px;
-  background: url('../imagens/fundoR6.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url('../imagens/fundoR6.jpg');
 
-  height: 400px;
+  height: 350px;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+}
+
+.titulo {
+  font-size: 40px;
 }
