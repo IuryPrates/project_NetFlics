@@ -9,9 +9,11 @@
   box-sizing: border-box;
 }
 
+/*elementos base*/
 body {
   background-color: var(--preta);
   font-family: 'Times New Roman', Times, serifss;
+  color: white;
 }
 
 /*tela , flex direction estiliza */
@@ -38,4 +40,12 @@ header nav a {
 /*a:hover faz uma estilização ao passar o cursor em cima dos marcadores de tag <a> (links)*/
 header nav a:hover {
   color: #fff;
+}
+/*background size, cover ((alinha o tamanho da imagem para se adaptar a tela))*/
+.filme-principal {
+  font-size: 15px;
+  background: url('../imagens/fundoR6.jpg');
+
+  height: 400px;
+  background-size: cover;
 }
