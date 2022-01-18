@@ -57,12 +57,13 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
-.titulo {
-  margin-top: 20%;
-  font-size: 30%;
+.filme-principal .titulo {
+  margin-top: 12%;
+  font-size: 35%;
   font-family: 'Trebuchet MS', Arial, sans-serif;
   font-size: 40px;
 }
@@ -77,4 +78,15 @@ header nav a:hover {
   /*dois valores > primeiro up-down- segundo > left-right*/
   margin-right: 15px;
   font-size: 12px;
+
+  cursor: pointer;
+  transition: .5s ease all;
+}
+
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+.botao i{
+  margin-right: 5px;
 }
