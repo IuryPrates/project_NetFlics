@@ -61,5 +61,20 @@ header nav a:hover {
 }
 
 .titulo {
+  margin-top: 20%;
+  font-size: 30%;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
   font-size: 40px;
+}
+
+/*efeito de transparencia no botao, r,g,b, valor camada alfa 50%*/
+.botao{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white; /*cor do elemento de dentro*/
+
+  padding: 15px 30px;/*espaçamento interno do elemento, padding sem especificar o lado vai ser aplicado nos 4 lados*/
+  /*dois valores > primeiro up-down- segundo > left-right*/
+  margin-right: 15px;
+  font-size: 12px;
 }
