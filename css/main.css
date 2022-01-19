@@ -69,24 +69,31 @@ header nav a:hover {
 }
 
 /*efeito de transparencia no botao, r,g,b, valor camada alfa 50%*/
-.botao{
+.botao {
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   color: white; /*cor do elemento de dentro*/
 
-  padding: 15px 30px;/*espaçamento interno do elemento, padding sem especificar o lado vai ser aplicado nos 4 lados*/
+  padding: 15px 30px; /*espaçamento interno do elemento, padding sem especificar o lado vai ser aplicado nos 4 lados*/
   /*dois valores > primeiro up-down- segundo > left-right*/
   margin-right: 15px;
   font-size: 12px;
 
   cursor: pointer;
-  transition: .5s ease all;
+  transition: 0.5s ease all;
 }
 
-.botao:hover{
+.botao:hover {
   background-color: white;
   color: black;
 }
-.botao i{
+.botao i {
   margin-right: 5px;
+}
+
+.container {
+  margin-left: 30px;
+}
+.filme-principal .container {
+  width: 70%;
 }
