@@ -1,8 +1,6 @@
-# NetFlics
+# Nét-Flics
 
 ## esse projeto prático tem como objetivo desenvolver um website copiando o layout do site de streaming de vídeo Netflix..
 
-### projeto desenvolvido no bootcamp TakeBlip Web developer
-
-### atualizando aos poucos
+### projeto desenvolvido no bootcamp TakeBlip Web developer e atualizado conforme avanço das aulas.
 
