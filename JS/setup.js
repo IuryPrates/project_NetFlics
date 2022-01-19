@@ -1,7 +1,7 @@
 $('.owl-carousel').owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: true,
+  loop: true, //loop do carrossel
+  margin: 10, // margem entre os filmes
+  nav: false, //setas de navegação
   responsive: {
     0: {
       items: 1,
